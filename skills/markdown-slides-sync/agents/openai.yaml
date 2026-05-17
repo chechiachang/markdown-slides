@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Slides Sync"
+  short_description: "Sync markdown-slides talk files and skill into repos"
+  default_prompt: "Install or sync markdown-slides resources in the current repository."
