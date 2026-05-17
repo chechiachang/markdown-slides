@@ -9,8 +9,12 @@
 
 - Start with `talk/template.md` to capture talk goals, core message, and spoken plan.
 - Use `talk/steps.md` as the build workflow from whiteboard to rehearsal.
-- Use `talk/checklist.md` to verify readiness; mark items only when true.
-- Keep the same talk title/date across all three files for consistency.
+- Use `talk/checklist.md` as the base readiness checklist; mark items only when true.
+- Apply topic checklists as needed:
+- `talk/being-clear.md` for story structure and clarity.
+- `talk/being-awesome.md` for memorable delivery elements tied to technical points.
+- `talk/avoiding-common-mistakes.md` for slide quality, pacing, and accessibility checks.
+- Keep talk title/date metadata consistent across files where those fields exist.
 
 ## Output `output/`
 
