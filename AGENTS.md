@@ -16,7 +16,9 @@
 - `talk/avoiding-common-mistakes.md` for slide quality, pacing, and accessibility checks.
 - Keep talk title/date metadata consistent across files where those fields exist.
 
-## Output `output/`
+## Output dir
 
 - Save generated materials here, organized by title and date.
-- talk dir structure: `output/talk/{date}_{talk_title}/`
+- Output dir should be at the root level of the project. If use this repo (markdown-slides) as submodule, dir should be `{root_repo}/output/`
+- If the root repo overwrites the output dir, use the new path for dir
+- Talk dir structure: `{output_dir}/talk/{date}_{talk_title}/`
